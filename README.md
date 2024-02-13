@@ -19,4 +19,4 @@ This project is a starting point for a Flutter application.
 
 ## Product Filter
 
-<img src = "https://github.com/Zimil-Patel/e_com_task_two/blob/master/snaps/8.1/ProductFilter1.png" width = "240" height = "460"> &nbsp;&nbsp;&nbsp;&nbsp; <img src = "https://github.com/Zimil-Patel/e_com_task_two/blob/master/snaps/EMICalc/ProductFilter1.png" width = "240" height = "460"> &nbsp;&nbsp;&nbsp;&nbsp; <img src = "https://github.com/Zimil-Patel/e_com_task_two/blob/master/snaps/EMICalc/ProductFilter1.png" width = "240" height = "460">
+<img src = "https://github.com/Zimil-Patel/e_com_task_two/blob/master/snaps/8.1/ProductFilter1.png" width = "240" height = "460"> &nbsp;&nbsp;&nbsp;&nbsp; <img src = "https://github.com/Zimil-Patel/e_com_task_two/blob/master/snaps/EMICalc/ProductFilter2.png" width = "240" height = "460"> &nbsp;&nbsp;&nbsp;&nbsp; <img src = "https://github.com/Zimil-Patel/e_com_task_two/blob/master/snaps/EMICalc/ProductFilter3.png" width = "240" height = "460">
