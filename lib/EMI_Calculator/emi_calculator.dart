@@ -7,10 +7,10 @@ class EmiCalculator extends StatefulWidget {
   State<EmiCalculator> createState() => _EmiCalculatorState();
 }
 
-double EMIAmt = 0.00;
+double EMIAmt = 0;
 double loanAmt = 100000;
-double interestRate = 0;
-double tenure = 0;
+double interestRate = 10;
+double tenure = 24;
 
 class _EmiCalculatorState extends State<EmiCalculator> {
   @override
@@ -164,10 +164,9 @@ double calc_emi(double p, double r, double t)
 {
   double emi;
   // one month interest
-  r = r / (12 * 100);
-  // one month period
-  t = t * 12;
+  r = r / 100 / 12;
   // Calculate EMI as per formula
-  emi = (p * r * pow(1 + r, t)) / (pow(1 + r, t) - 1);
+  emi = ((p * r * pow(1 + r, t)) /
+      (pow(1 + r, t) -1));
   return (emi);
 }

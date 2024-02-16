@@ -7,13 +7,39 @@ void main() {
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
 
-    initialRoute: '/product',
+    initialRoute: '/emi',
 
     routes: {
     '/stack': (context) => const StackApp(),
     '/emi': (context) => const EmiCalculator(),
     '/product': (context) => const ProductFilter(),
+    '/sample': (context) => const Sample(),
     },
 
   ));
 }
+
+
+class Sample extends StatelessWidget {
+  const Sample({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: Colors.white,
+
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [Column(
+            children: [
+              ...List.generate(40, (index) => Container(
+                width: double.infinity,
+                  color: Colors.redAccent,
+                  child: Text('$index')))
+            ],
+        )],
+      ),
+    );
+  }
+}
+
