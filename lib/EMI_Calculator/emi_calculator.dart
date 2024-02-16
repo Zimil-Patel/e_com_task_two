@@ -9,7 +9,7 @@ class EmiCalculator extends StatefulWidget {
 
 double EMIAmt = 0;
 double loanAmt = 100000;
-double interestRate = 10;
+double interestRate = 1;
 double tenure = 24;
 
 class _EmiCalculatorState extends State<EmiCalculator> {
@@ -75,7 +75,7 @@ class _EmiCalculatorState extends State<EmiCalculator> {
                           ),
                           Slider(
                             value: loanAmt,
-                            min: 0,
+                            min: 5000,
                             max: 200000,
                             divisions: 100,
                             activeColor: Colors.red,
@@ -99,7 +99,7 @@ class _EmiCalculatorState extends State<EmiCalculator> {
                           ),
                           Slider(
                             value: interestRate,
-                            min: 0,
+                            min: 1,
                             max: 100,
                             divisions: 100,
                             activeColor: Colors.red,
@@ -123,7 +123,7 @@ class _EmiCalculatorState extends State<EmiCalculator> {
                           ),
                           Slider(
                             value: tenure,
-                            min: 0,
+                            min: 6,
                             max: 120,
                             divisions: 60,
                             activeColor: Colors.red,
